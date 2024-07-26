@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/mnu_xemds"
+        android:title="Món Tráng Miệng">
+        <menu>
+            <item
+                android:id="@+id/mnu_xemdsKem"
+                android:title="Kem Tràng Tiền" />
+            <item
+                android:id="@+id/mnu_xemdsnuocep"
+                android:title="Nước ép hoa quả theo mùa" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/mnu_Khaivi"
+        android:title="Món Khai vị"></item>
+    <item
+        android:id="@+id/mnu_Hấp"
+        android:title="Món hấp" />
+    <item
+        android:id="@+id/mnu_Chiên"
+        android:title="Món chiên" />
+    <item
+        android:id="@+id/mnu_Salat"
+        android:title="Salat" />
+</menu>

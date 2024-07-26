@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/item1"
+        android:title="Xem danh sách">
+        <!-- Khai báo menu con -->
+        <menu>
+            <item
+                android:id="@+id/sinhvien"
+                android:title="Sinh viên" />
+            <item
+                android:id="@+id/lophoc"
+                android:title="Lớp học" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/item2"
+        android:title="Sửa danh sách" />
+    <item
+        android:id="@+id/item3"
+        android:title="Xóa danh sách" />
+    <item
+        android:id="@+id/item4"
+        android:title="In báo cáo" />
+    <item
+        android:id="@+id/item5"
+        android:title="Trợ giúp" />
+</menu>
